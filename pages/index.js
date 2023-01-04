@@ -1,14 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
+import Head from "next/head"
+import Link from "next/link";
+import Image from "next/image"
 export default function Home() {
   return (
-    <>
-    <p>Hello Nafiz Iqbal This is Your First Ever First NEXT JS Project</p>
-    </>
-  )
+    <div>
+      <Head>
+        <title>
+          Home Page
+        </title>
+      </Head>
+      <p className="text-red-500">Hello Nafiz Iqbal This is Your First Ever First NEXT JS Project</p>
+      <Link href={'/'} className="btn btn-primary">Button</Link>
+    </div>
+  );
 }

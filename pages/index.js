@@ -10,7 +10,7 @@ export default function Home() {
         </title>
       </Head>
       <p className="text-red-500">Hello Nafiz Iqbal This is Your First Ever First NEXT JS Project</p>
-      <Link href={'/'} className="btn btn-primary">Button</Link>
+      <Link href={'/Posts'} className="btn btn-primary">See all Post</Link>
     </div>
   );
 }

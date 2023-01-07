@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image"
 export default function Home() {
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full ">
       <Head>
         <title>
           Home Page

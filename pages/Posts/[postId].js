@@ -2,8 +2,8 @@ const postId = ({ postData }) => {
     return (
         <div>
             <ul>
-            {postData.title} <br />
-            {postData.body} <br />
+                {postData.title} <br />
+                {postData.body} <br />
             </ul>
         </div>
     )
@@ -29,7 +29,7 @@ export const getStaticPaths = async () => {
     // console.log(postsData);
     const paths = postsData.map(data => {
         return {
-            params : {
+            params: {
                 postId: `${data.id}`
             }
         }

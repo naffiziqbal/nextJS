@@ -1,4 +1,7 @@
-const profile = () => <div>Profile Page
-    <p>Hello Page</p>
-</div>
+const profile = () => {
+
+    <div>Profile Page
+        <p>Hello Page</p>
+    </div>
+}
 export default profile;

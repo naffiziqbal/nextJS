@@ -1,7 +1,7 @@
 const Posts = ({ posts }) => {
     console.log(posts);
     return (
-        <div className="container mx-auto"> 
+        <div className="container mx-auto">
             <h1 className="text-3xl"> All Post {posts.length}</h1>
             {
                 posts.map(post => <div className="text-start">{post?.title}</div>)

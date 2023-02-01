@@ -33,6 +33,7 @@ export default function Home() {
           Place Order
         </button>
         <Link href={'/users'} className="btn btn-primary" >Users</Link>
+        <Link href={'/Posts'} className="btn btn-primary" >Posts</Link>
       </div>
     </div>
   );
